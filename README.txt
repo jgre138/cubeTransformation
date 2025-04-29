@@ -1,5 +1,5 @@
 Instructions to Cube Transformation Program
-cube_transformations_demo.py by 
+cube_transformations_demo.py by Mike Montulet and Jennifer Greene
 
 How to use (all operations):
 
