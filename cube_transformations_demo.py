@@ -109,7 +109,7 @@ def translation_matrix(x, y, z):
 #Applies the transformation to each vertex of the cube.
 def apply_transformation(vertices, matrix):
     homogeneous_vertices = np.hstack((vertices, np.ones((vertices.shape[0], 1))))
-    transformed_cube = homogeneous_vertices @ matrix.T #T is the transverse
+    transformed_cube = homogeneous_vertices @ matrix.T #T is the transpose.
     return transformed_cube
 
 #Main Function.
